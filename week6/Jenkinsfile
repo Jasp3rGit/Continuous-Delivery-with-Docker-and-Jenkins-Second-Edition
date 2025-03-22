@@ -13,7 +13,7 @@ pipeline {
                 git url: env.GIT_URL, branch: env.BRANCH_NAME
             }
         }
-
+//testing for the feature branch
         stage('Run Tests') {
             steps {
                 script {
